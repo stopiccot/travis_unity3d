@@ -6,6 +6,7 @@ echo "Attempting to build $project for OS X"
 /Applications/Unity/Unity.app/Contents/MacOS/Unity 
   -quit
   -batchmode
+  -logfile
   -executeMethod AutoBuilder.PerformiOSBuildSimulator
 
 echo 'Logs from build'
