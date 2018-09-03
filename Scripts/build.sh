@@ -3,11 +3,7 @@
 project="<YOUR PROJECT NAME HERE>"
 
 echo "Attempting to build $project for OS X"
-/Applications/Unity/Unity.app/Contents/MacOS/Unity 
-  -quit
-  -batchmode
-  -logfile
-  -executeMethod AutoBuilder.PerformiOSBuildSimulator
+/Applications/Unity/Unity.app/Contents/MacOS/Unity -quit -batchmode -logfile -executeMethod AutoBuilder.PerformiOSBuildSimulator
 
 echo 'Logs from build'
 cat $(pwd)/unity.
